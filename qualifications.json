@@ -1,0 +1,3220 @@
+{
+  "pureId": 2849332,
+  "uuid": "9530f477-5785-4f80-a7c6-4fe47a4c456e",
+  "baseUri": "/dk/atira/pure/personeducation/qualification",
+  "info": {
+    "createdBy": "root",
+    "createdDate": "2015-02-09T11:33:23.000+0000",
+    "modifiedBy": "root",
+    "modifiedDate": "2015-02-09T11:33:27.000+0000"
+  },
+  "typeClassifications": [
+    {
+      "value": "Taxonomy",
+      "pureId": 39,
+      "uri": "/dk/atira/pure/core/classificationschemes/taxonomi"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Types of Qualifications"
+    }
+  ],
+  "containedClassifications": [
+    {
+      "pureId": 2849533,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor"
+        }
+      ],
+      "classificationRelations": [
+        {
+          "pureId": 2849535,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Accounting",
+              "pureId": 2849575,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofaccounting"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849536,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Applied Science",
+              "pureId": 2849577,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofappliedscience"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849537,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Architecture",
+              "pureId": 2849579,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofarchitecture"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849538,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Arts",
+              "pureId": 2849581,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofarts"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849539,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Arts and Economics",
+              "pureId": 2849583,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofartsandeconomics"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849540,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Biomedical science",
+              "pureId": 2849585,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofbiomedicalscience"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849541,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Civil Law",
+              "pureId": 2849587,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofcivillaw"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849542,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Counseling",
+              "pureId": 2849589,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofcounseling"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849543,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Dental Surgery",
+              "pureId": 2849591,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofdentalsurgery"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849544,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Design",
+              "pureId": 2849593,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofdesign"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849545,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Divinity",
+              "pureId": 2849595,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofdivinity"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849546,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Economics",
+              "pureId": 2849597,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofeconomics"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849547,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Economics and Finance",
+              "pureId": 2849599,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofeconomicsandfinance"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849548,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Education",
+              "pureId": 2849601,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofeducation"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849549,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Engineering",
+              "pureId": 2849603,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofengineering"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849550,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Finance",
+              "pureId": 2849605,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bacheloroffinance"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849551,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Fine Art",
+              "pureId": 2849607,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bacheloroffineart"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849552,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Health Science",
+              "pureId": 2849609,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofhealthscience"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849553,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Laws",
+              "pureId": 2849611,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bacheloroflaws"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849554,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Literature or Bachelor of Letters",
+              "pureId": 2849613,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofliteratureorbachelorofletters"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849555,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Medicine",
+              "pureId": 2849615,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofmedicine"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849556,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Medicine and Bachelor of Surgery",
+              "pureId": 2849617,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofmedicineandbachelorofsurgery"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849557,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Midwifery",
+              "pureId": 2849619,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofmidwifery"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849558,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Ministry",
+              "pureId": 2849621,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofministry"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849559,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Music",
+              "pureId": 2849623,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofmusic"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849560,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Nursing",
+              "pureId": 2849625,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofnursing"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849561,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Pharmacy",
+              "pureId": 2849627,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofpharmacy"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849562,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Philosophy",
+              "pureId": 2849629,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofphilosophy"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849563,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Science",
+              "pureId": 2849631,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofscience"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849564,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Science in Economics",
+              "pureId": 2849633,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofscienceineconomics"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849565,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Science in Engineering",
+              "pureId": 2849635,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofscienceinengineering"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849566,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Science in Psychology",
+              "pureId": 2849637,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofscienceinpsychology"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849567,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Social Science",
+              "pureId": 2849639,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofsocialscience"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849568,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Surgery",
+              "pureId": 2849641,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofsurgery"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849569,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Teaching",
+              "pureId": 2849643,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofteaching"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849570,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Technology (not to be confused with BTEC)",
+              "pureId": 2849645,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bacheloroftechnologynottobeconfusedwithbtec"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849571,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Theology",
+              "pureId": 2849647,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bacheloroftheology"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849572,
+          "relatedTo": [
+            {
+              "value": "Bachelor of Veterinary Medicine (Cambridge)",
+              "pureId": 2849649,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofveterinarymedicinecambridge"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849573,
+          "relatedTo": [
+            {
+              "value": "Bachelors in Veterinary Medicine",
+              "pureId": 2849651,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorsinveterinarymedicine"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849574,
+          "relatedTo": [
+            {
+              "value": "Bachelors in Veterinary Medicine & Surgery",
+              "pureId": 2849653,
+              "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorsinveterinarymedicinesurgery"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pureId": 2849575,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofaccounting",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Accounting"
+        }
+      ]
+    },
+    {
+      "pureId": 2849577,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofappliedscience",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Applied Science"
+        }
+      ]
+    },
+    {
+      "pureId": 2849579,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofarchitecture",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Architecture"
+        }
+      ]
+    },
+    {
+      "pureId": 2849581,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofarts",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Arts"
+        }
+      ]
+    },
+    {
+      "pureId": 2849583,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofartsandeconomics",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Arts and Economics"
+        }
+      ]
+    },
+    {
+      "pureId": 2849585,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofbiomedicalscience",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Biomedical science"
+        }
+      ]
+    },
+    {
+      "pureId": 2849587,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofcivillaw",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Civil Law"
+        }
+      ]
+    },
+    {
+      "pureId": 2849589,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofcounseling",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Counseling"
+        }
+      ]
+    },
+    {
+      "pureId": 2849591,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofdentalsurgery",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Dental Surgery"
+        }
+      ]
+    },
+    {
+      "pureId": 2849593,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofdesign",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Design"
+        }
+      ]
+    },
+    {
+      "pureId": 2849595,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofdivinity",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Divinity"
+        }
+      ]
+    },
+    {
+      "pureId": 2849597,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofeconomics",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Economics"
+        }
+      ]
+    },
+    {
+      "pureId": 2849599,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofeconomicsandfinance",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Economics and Finance"
+        }
+      ]
+    },
+    {
+      "pureId": 2849601,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofeducation",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Education"
+        }
+      ]
+    },
+    {
+      "pureId": 2849603,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofengineering",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Engineering"
+        }
+      ]
+    },
+    {
+      "pureId": 2849605,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bacheloroffinance",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Finance"
+        }
+      ]
+    },
+    {
+      "pureId": 2849607,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bacheloroffineart",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Fine Art"
+        }
+      ]
+    },
+    {
+      "pureId": 2849609,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofhealthscience",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Health Science"
+        }
+      ]
+    },
+    {
+      "pureId": 2849611,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bacheloroflaws",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Laws"
+        }
+      ]
+    },
+    {
+      "pureId": 2849613,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofliteratureorbachelorofletters",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Literature or Bachelor of Letters"
+        }
+      ]
+    },
+    {
+      "pureId": 2849615,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofmedicine",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Medicine"
+        }
+      ]
+    },
+    {
+      "pureId": 2849617,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofmedicineandbachelorofsurgery",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Medicine and Bachelor of Surgery"
+        }
+      ]
+    },
+    {
+      "pureId": 2849619,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofmidwifery",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Midwifery"
+        }
+      ]
+    },
+    {
+      "pureId": 2849621,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofministry",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Ministry"
+        }
+      ]
+    },
+    {
+      "pureId": 2849623,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofmusic",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Music"
+        }
+      ]
+    },
+    {
+      "pureId": 2849625,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofnursing",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Nursing"
+        }
+      ]
+    },
+    {
+      "pureId": 2849627,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofpharmacy",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Pharmacy"
+        }
+      ]
+    },
+    {
+      "pureId": 2849629,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofphilosophy",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Philosophy"
+        }
+      ]
+    },
+    {
+      "pureId": 2849631,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofscience",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Science"
+        }
+      ]
+    },
+    {
+      "pureId": 2849633,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofscienceineconomics",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Science in Economics"
+        }
+      ]
+    },
+    {
+      "pureId": 2849635,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofscienceinengineering",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Science in Engineering"
+        }
+      ]
+    },
+    {
+      "pureId": 2849637,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofscienceinpsychology",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Science in Psychology"
+        }
+      ]
+    },
+    {
+      "pureId": 2849639,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofsocialscience",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Social Science"
+        }
+      ]
+    },
+    {
+      "pureId": 2849641,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofsurgery",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Surgery"
+        }
+      ]
+    },
+    {
+      "pureId": 2849643,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofteaching",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Teaching"
+        }
+      ]
+    },
+    {
+      "pureId": 2849645,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bacheloroftechnologynottobeconfusedwithbtec",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Technology (not to be confused with BTEC)"
+        }
+      ]
+    },
+    {
+      "pureId": 2849647,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bacheloroftheology",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Theology"
+        }
+      ]
+    },
+    {
+      "pureId": 2849649,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorofveterinarymedicinecambridge",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelor of Veterinary Medicine (Cambridge)"
+        }
+      ]
+    },
+    {
+      "pureId": 2849651,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorsinveterinarymedicine",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelors in Veterinary Medicine"
+        }
+      ]
+    },
+    {
+      "pureId": 2849653,
+      "uri": "/dk/atira/pure/personeducation/qualification/bachelor/bachelorsinveterinarymedicinesurgery",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Bachelors in Veterinary Medicine & Surgery"
+        }
+      ]
+    },
+    {
+      "pureId": 2849655,
+      "uri": "/dk/atira/pure/personeducation/qualification/master",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master"
+        }
+      ],
+      "classificationRelations": [
+        {
+          "pureId": 2849657,
+          "relatedTo": [
+            {
+              "value": "Magister Juris (Oxford)",
+              "pureId": 2849710,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/magisterjurisoxford"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849658,
+          "relatedTo": [
+            {
+              "value": "Master in Science",
+              "pureId": 2849712,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterinscience"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849659,
+          "relatedTo": [
+            {
+              "value": "Master of Architecture",
+              "pureId": 2849714,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofarchitecture"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849660,
+          "relatedTo": [
+            {
+              "value": "Master of Arts",
+              "pureId": 2849716,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofarts"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849661,
+          "relatedTo": [
+            {
+              "value": "Master of Biochemistry",
+              "pureId": 2849718,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofbiochemistry"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849662,
+          "relatedTo": [
+            {
+              "value": "Master of Biological Science",
+              "pureId": 2849720,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofbiologicalscience"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849663,
+          "relatedTo": [
+            {
+              "value": "Master of Biology",
+              "pureId": 2849722,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofbiology"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849664,
+          "relatedTo": [
+            {
+              "value": "Master of Business Administration",
+              "pureId": 2849724,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofbusinessadministration"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849665,
+          "relatedTo": [
+            {
+              "value": "Master of Chemistry",
+              "pureId": 2849726,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofchemistry"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849666,
+          "relatedTo": [
+            {
+              "value": "Master of Clinical Dentistry",
+              "pureId": 2849728,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofclinicaldentistry"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849667,
+          "relatedTo": [
+            {
+              "value": "Master of Computational Mathematics",
+              "pureId": 2849730,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofcomputationalmathematics"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849668,
+          "relatedTo": [
+            {
+              "value": "Master of Computing",
+              "pureId": 2849732,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofcomputing"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849669,
+          "relatedTo": [
+            {
+              "value": "Master of Customs Administration",
+              "pureId": 2849734,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofcustomsadministration"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849670,
+          "relatedTo": [
+            {
+              "value": "Master of Divinity",
+              "pureId": 2849736,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofdivinity"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849671,
+          "relatedTo": [
+            {
+              "value": "Master of Drama",
+              "pureId": 2849738,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofdrama"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849672,
+          "relatedTo": [
+            {
+              "value": "Master of Earth Science",
+              "pureId": 2849740,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofearthscience"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849673,
+          "relatedTo": [
+            {
+              "value": "Master of Economics",
+              "pureId": 2849742,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofeconomics"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849674,
+          "relatedTo": [
+            {
+              "value": "Master of Education",
+              "pureId": 2849744,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofeducation"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849675,
+          "relatedTo": [
+            {
+              "value": "Master of Electronic Business (eBusiness)",
+              "pureId": 2849746,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofelectronicbusinessebusiness"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849676,
+          "relatedTo": [
+            {
+              "value": "Master of Engineering",
+              "pureId": 2849748,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofengineering"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849677,
+          "relatedTo": [
+            {
+              "value": "Master of Environmental Science",
+              "pureId": 2849750,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofenvironmentalscience"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849678,
+          "relatedTo": [
+            {
+              "value": "Master of Fine Art",
+              "pureId": 2849752,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masteroffineart"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849679,
+          "relatedTo": [
+            {
+              "value": "Master of Geography",
+              "pureId": 2849754,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofgeography"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849680,
+          "relatedTo": [
+            {
+              "value": "Master of Geology",
+              "pureId": 2849756,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofgeology"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849681,
+          "relatedTo": [
+            {
+              "value": "Master of Geophysics",
+              "pureId": 2849758,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofgeophysics"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849682,
+          "relatedTo": [
+            {
+              "value": "Master of Informatics",
+              "pureId": 2849760,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofinformatics"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849683,
+          "relatedTo": [
+            {
+              "value": "Master of Jurisprudence (Law)",
+              "pureId": 2849762,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofjurisprudencelaw"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849684,
+          "relatedTo": [
+            {
+              "value": "Master of Laws",
+              "pureId": 2849764,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masteroflaws"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849685,
+          "relatedTo": [
+            {
+              "value": "Master of Letters",
+              "pureId": 2849766,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofletters"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849686,
+          "relatedTo": [
+            {
+              "value": "Master of Librarianship",
+              "pureId": 2849768,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masteroflibrarianship"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849687,
+          "relatedTo": [
+            {
+              "value": "Master of Mathematical Physics",
+              "pureId": 2849770,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofmathematicalphysics"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849688,
+          "relatedTo": [
+            {
+              "value": "Master of Mathematics",
+              "pureId": 2849772,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofmathematics"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849689,
+          "relatedTo": [
+            {
+              "value": "Master of Mathematics, Operational Research, Statistics and Economics",
+              "pureId": 2849774,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofmathematics,operationalresearch,statisticsandeconomics"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849690,
+          "relatedTo": [
+            {
+              "value": "Master of Mathematics and Physics",
+              "pureId": 2849776,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofmathematicsandphysics"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849691,
+          "relatedTo": [
+            {
+              "value": "Master of Mathematics and Statistics",
+              "pureId": 2849778,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofmathematicsandstatistics"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849692,
+          "relatedTo": [
+            {
+              "value": "Master of Music",
+              "pureId": 2849780,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofmusic"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849693,
+          "relatedTo": [
+            {
+              "value": "Master of Natural Science",
+              "pureId": 2849782,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofnaturalscience"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849694,
+          "relatedTo": [
+            {
+              "value": "Master of Natural Science at Cambridge University",
+              "pureId": 2849784,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofnaturalscienceatcambridgeuniversity"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849695,
+          "relatedTo": [
+            {
+              "value": "Master of Nursing Science",
+              "pureId": 2849786,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofnursingscience"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849696,
+          "relatedTo": [
+            {
+              "value": "Master of Oceanography",
+              "pureId": 2849788,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofoceanography"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849697,
+          "relatedTo": [
+            {
+              "value": "Master of Pharmacy",
+              "pureId": 2849790,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofpharmacy"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849698,
+          "relatedTo": [
+            {
+              "value": "Master of Philosophy",
+              "pureId": 2849792,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofphilosophy"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849699,
+          "relatedTo": [
+            {
+              "value": "Master of Physics",
+              "pureId": 2849794,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofphysics"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849700,
+          "relatedTo": [
+            {
+              "value": "Master of Planning",
+              "pureId": 2849796,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofplanning"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849701,
+          "relatedTo": [
+            {
+              "value": "Master of Public Health",
+              "pureId": 2849798,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofpublichealth"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849702,
+          "relatedTo": [
+            {
+              "value": "Master of Research",
+              "pureId": 2849800,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofresearch"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849703,
+          "relatedTo": [
+            {
+              "value": "Master of Science",
+              "pureId": 2849802,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofscience"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849704,
+          "relatedTo": [
+            {
+              "value": "Master of Social Science",
+              "pureId": 2849804,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofsocialscience"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849705,
+          "relatedTo": [
+            {
+              "value": "Master of Statistics",
+              "pureId": 2849806,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofstatistics"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849706,
+          "relatedTo": [
+            {
+              "value": "Master of Studies",
+              "pureId": 2849808,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofstudies"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849707,
+          "relatedTo": [
+            {
+              "value": "Master of Teaching and Learning",
+              "pureId": 2849810,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masterofteachingandlearning"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849708,
+          "relatedTo": [
+            {
+              "value": "Master of Theology",
+              "pureId": 2849812,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masteroftheology"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849709,
+          "relatedTo": [
+            {
+              "value": "Master of the University",
+              "pureId": 2849814,
+              "uri": "/dk/atira/pure/personeducation/qualification/master/masteroftheuniversity"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pureId": 2849710,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/magisterjurisoxford",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Magister Juris (Oxford)"
+        }
+      ]
+    },
+    {
+      "pureId": 2849712,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterinscience",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master in Science"
+        }
+      ]
+    },
+    {
+      "pureId": 2849714,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofarchitecture",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Architecture"
+        }
+      ]
+    },
+    {
+      "pureId": 2849716,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofarts",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Arts"
+        }
+      ]
+    },
+    {
+      "pureId": 2849718,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofbiochemistry",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Biochemistry"
+        }
+      ]
+    },
+    {
+      "pureId": 2849720,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofbiologicalscience",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Biological Science"
+        }
+      ]
+    },
+    {
+      "pureId": 2849722,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofbiology",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Biology"
+        }
+      ]
+    },
+    {
+      "pureId": 2849724,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofbusinessadministration",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Business Administration"
+        }
+      ]
+    },
+    {
+      "pureId": 2849726,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofchemistry",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Chemistry"
+        }
+      ]
+    },
+    {
+      "pureId": 2849728,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofclinicaldentistry",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Clinical Dentistry"
+        }
+      ]
+    },
+    {
+      "pureId": 2849730,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofcomputationalmathematics",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Computational Mathematics"
+        }
+      ]
+    },
+    {
+      "pureId": 2849732,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofcomputing",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Computing"
+        }
+      ]
+    },
+    {
+      "pureId": 2849734,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofcustomsadministration",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Customs Administration"
+        }
+      ]
+    },
+    {
+      "pureId": 2849736,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofdivinity",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Divinity"
+        }
+      ]
+    },
+    {
+      "pureId": 2849738,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofdrama",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Drama"
+        }
+      ]
+    },
+    {
+      "pureId": 2849740,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofearthscience",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Earth Science"
+        }
+      ]
+    },
+    {
+      "pureId": 2849742,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofeconomics",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Economics"
+        }
+      ]
+    },
+    {
+      "pureId": 2849744,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofeducation",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Education"
+        }
+      ]
+    },
+    {
+      "pureId": 2849746,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofelectronicbusinessebusiness",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Electronic Business (eBusiness)"
+        }
+      ]
+    },
+    {
+      "pureId": 2849748,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofengineering",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Engineering"
+        }
+      ]
+    },
+    {
+      "pureId": 2849750,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofenvironmentalscience",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Environmental Science"
+        }
+      ]
+    },
+    {
+      "pureId": 2849752,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masteroffineart",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Fine Art"
+        }
+      ]
+    },
+    {
+      "pureId": 2849754,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofgeography",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Geography"
+        }
+      ]
+    },
+    {
+      "pureId": 2849756,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofgeology",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Geology"
+        }
+      ]
+    },
+    {
+      "pureId": 2849758,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofgeophysics",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Geophysics"
+        }
+      ]
+    },
+    {
+      "pureId": 2849760,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofinformatics",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Informatics"
+        }
+      ]
+    },
+    {
+      "pureId": 2849762,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofjurisprudencelaw",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Jurisprudence (Law)"
+        }
+      ]
+    },
+    {
+      "pureId": 2849764,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masteroflaws",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Laws"
+        }
+      ]
+    },
+    {
+      "pureId": 2849766,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofletters",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Letters"
+        }
+      ]
+    },
+    {
+      "pureId": 2849768,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masteroflibrarianship",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Librarianship"
+        }
+      ]
+    },
+    {
+      "pureId": 2849770,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofmathematicalphysics",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Mathematical Physics"
+        }
+      ]
+    },
+    {
+      "pureId": 2849772,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofmathematics",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Mathematics"
+        }
+      ]
+    },
+    {
+      "pureId": 2849774,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofmathematics,operationalresearch,statisticsandeconomics",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Mathematics, Operational Research, Statistics and Economics"
+        }
+      ]
+    },
+    {
+      "pureId": 2849776,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofmathematicsandphysics",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Mathematics and Physics"
+        }
+      ]
+    },
+    {
+      "pureId": 2849778,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofmathematicsandstatistics",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Mathematics and Statistics"
+        }
+      ]
+    },
+    {
+      "pureId": 2849780,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofmusic",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Music"
+        }
+      ]
+    },
+    {
+      "pureId": 2849782,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofnaturalscience",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Natural Science"
+        }
+      ]
+    },
+    {
+      "pureId": 2849784,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofnaturalscienceatcambridgeuniversity",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Natural Science at Cambridge University"
+        }
+      ]
+    },
+    {
+      "pureId": 2849786,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofnursingscience",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Nursing Science"
+        }
+      ]
+    },
+    {
+      "pureId": 2849788,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofoceanography",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Oceanography"
+        }
+      ]
+    },
+    {
+      "pureId": 2849790,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofpharmacy",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Pharmacy"
+        }
+      ]
+    },
+    {
+      "pureId": 2849792,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofphilosophy",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Philosophy"
+        }
+      ]
+    },
+    {
+      "pureId": 2849794,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofphysics",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Physics"
+        }
+      ]
+    },
+    {
+      "pureId": 2849796,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofplanning",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Planning"
+        }
+      ]
+    },
+    {
+      "pureId": 2849798,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofpublichealth",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Public Health"
+        }
+      ]
+    },
+    {
+      "pureId": 2849800,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofresearch",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Research"
+        }
+      ]
+    },
+    {
+      "pureId": 2849802,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofscience",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Science"
+        }
+      ]
+    },
+    {
+      "pureId": 2849804,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofsocialscience",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Social Science"
+        }
+      ]
+    },
+    {
+      "pureId": 2849806,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofstatistics",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Statistics"
+        }
+      ]
+    },
+    {
+      "pureId": 2849808,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofstudies",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Studies"
+        }
+      ]
+    },
+    {
+      "pureId": 2849810,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masterofteachingandlearning",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Teaching and Learning"
+        }
+      ]
+    },
+    {
+      "pureId": 2849812,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masteroftheology",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of Theology"
+        }
+      ]
+    },
+    {
+      "pureId": 2849814,
+      "uri": "/dk/atira/pure/personeducation/qualification/master/masteroftheuniversity",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Master of the University"
+        }
+      ]
+    },
+    {
+      "pureId": 2849816,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctorate"
+        }
+      ],
+      "classificationRelations": [
+        {
+          "pureId": 2849818,
+          "relatedTo": [
+            {
+              "value": "Doctor of Business Administration",
+              "pureId": 2849842,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofbusinessadministration"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849819,
+          "relatedTo": [
+            {
+              "value": "Doctor of Civil Law",
+              "pureId": 2849844,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofcivillaw"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849820,
+          "relatedTo": [
+            {
+              "value": "Doctor of Clinical Psychology",
+              "pureId": 2849846,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofclinicalpsychology"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849821,
+          "relatedTo": [
+            {
+              "value": "Doctor of Dental Surgery",
+              "pureId": 2849848,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofdentalsurgery"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849822,
+          "relatedTo": [
+            {
+              "value": "Doctor of Divinity",
+              "pureId": 2849850,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofdivinity"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849823,
+          "relatedTo": [
+            {
+              "value": "Doctor of Education",
+              "pureId": 2849852,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofeducation"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849824,
+          "relatedTo": [
+            {
+              "value": "Doctor of Educational Psychology",
+              "pureId": 2849854,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofeducationalpsychology"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849825,
+          "relatedTo": [
+            {
+              "value": "Doctor of Engineering",
+              "pureId": 2849856,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofengineering"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849826,
+          "relatedTo": [
+            {
+              "value": "Doctor of Health Science",
+              "pureId": 2849858,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofhealthscience"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849827,
+          "relatedTo": [
+            {
+              "value": "Doctor of Laws",
+              "pureId": 2849860,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctoroflaws"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849828,
+          "relatedTo": [
+            {
+              "value": "Doctor of Letters",
+              "pureId": 2849862,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofletters"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849829,
+          "relatedTo": [
+            {
+              "value": "Doctor of Literature",
+              "pureId": 2849864,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofliterature"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849830,
+          "relatedTo": [
+            {
+              "value": "Doctor of Medicine",
+              "pureId": 2849866,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofmedicine"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849831,
+          "relatedTo": [
+            {
+              "value": "Doctor of Ministry",
+              "pureId": 2849868,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofministry"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849832,
+          "relatedTo": [
+            {
+              "value": "Doctor of Music",
+              "pureId": 2849870,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofmusic"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849833,
+          "relatedTo": [
+            {
+              "value": "Doctor of Nursing Science",
+              "pureId": 2849872,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofnursingscience"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849834,
+          "relatedTo": [
+            {
+              "value": "Doctor of Philosophy",
+              "pureId": 2849874,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofphilosophy"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849835,
+          "relatedTo": [
+            {
+              "value": "Doctor of Practical Theology",
+              "pureId": 2849876,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofpracticaltheology"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849836,
+          "relatedTo": [
+            {
+              "value": "Doctor of Professional Studies",
+              "pureId": 2849878,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofprofessionalstudies"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849837,
+          "relatedTo": [
+            {
+              "value": "Doctor of Science",
+              "pureId": 2849880,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofscience"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849838,
+          "relatedTo": [
+            {
+              "value": "Doctor of Social Science",
+              "pureId": 2849882,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofsocialscience"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849839,
+          "relatedTo": [
+            {
+              "value": "Doctor of Theology",
+              "pureId": 2849884,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctoroftheology"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849840,
+          "relatedTo": [
+            {
+              "value": "Doctor of the University",
+              "pureId": 2849886,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctoroftheuniversity"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        },
+        {
+          "pureId": 2849841,
+          "relatedTo": [
+            {
+              "value": "Doctor rerum naturalium",
+              "pureId": 2849888,
+              "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorrerumnaturalium"
+            }
+          ],
+          "relationTypes": [
+            {
+              "value": "Child",
+              "pureId": 56,
+              "uri": "/dk/atira/pure/core/hierarchies/child"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pureId": 2849842,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofbusinessadministration",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Business Administration"
+        }
+      ]
+    },
+    {
+      "pureId": 2849844,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofcivillaw",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Civil Law"
+        }
+      ]
+    },
+    {
+      "pureId": 2849846,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofclinicalpsychology",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Clinical Psychology"
+        }
+      ]
+    },
+    {
+      "pureId": 2849848,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofdentalsurgery",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Dental Surgery"
+        }
+      ]
+    },
+    {
+      "pureId": 2849850,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofdivinity",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Divinity"
+        }
+      ]
+    },
+    {
+      "pureId": 2849852,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofeducation",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Education"
+        }
+      ]
+    },
+    {
+      "pureId": 2849854,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofeducationalpsychology",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Educational Psychology"
+        }
+      ]
+    },
+    {
+      "pureId": 2849856,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofengineering",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Engineering"
+        }
+      ]
+    },
+    {
+      "pureId": 2849858,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofhealthscience",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Health Science"
+        }
+      ]
+    },
+    {
+      "pureId": 2849860,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctoroflaws",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Laws"
+        }
+      ]
+    },
+    {
+      "pureId": 2849862,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofletters",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Letters"
+        }
+      ]
+    },
+    {
+      "pureId": 2849864,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofliterature",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Literature"
+        }
+      ]
+    },
+    {
+      "pureId": 2849866,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofmedicine",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Medicine"
+        }
+      ]
+    },
+    {
+      "pureId": 2849868,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofministry",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Ministry"
+        }
+      ]
+    },
+    {
+      "pureId": 2849870,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofmusic",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Music"
+        }
+      ]
+    },
+    {
+      "pureId": 2849872,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofnursingscience",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Nursing Science"
+        }
+      ]
+    },
+    {
+      "pureId": 2849874,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofphilosophy",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Philosophy"
+        }
+      ]
+    },
+    {
+      "pureId": 2849876,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofpracticaltheology",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Practical Theology"
+        }
+      ]
+    },
+    {
+      "pureId": 2849878,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofprofessionalstudies",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Professional Studies"
+        }
+      ]
+    },
+    {
+      "pureId": 2849880,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofscience",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Science"
+        }
+      ]
+    },
+    {
+      "pureId": 2849882,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorofsocialscience",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Social Science"
+        }
+      ]
+    },
+    {
+      "pureId": 2849884,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctoroftheology",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of Theology"
+        }
+      ]
+    },
+    {
+      "pureId": 2849886,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctoroftheuniversity",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor of the University"
+        }
+      ]
+    },
+    {
+      "pureId": 2849888,
+      "uri": "/dk/atira/pure/personeducation/qualification/doctorate/doctorrerumnaturalium",
+      "disabled": false,
+      "terms": [
+        {
+          "value": "Doctor rerum naturalium"
+        }
+      ]
+    }
+  ]
+}
