@@ -17,13 +17,9 @@ import lxml.etree as ET
 from xml.dom import minidom
 
 from html import escape
-
 import dicttoxml
 
 import click
-
-# could be nice to use option to source this data?:
-# https://www.kaggle.com/rhuebner/human-resources-data-set#HRDataset_v9.csv
 
 # Generates persons
 class PersonGenerator:
@@ -257,7 +253,6 @@ class PersonGenerator:
 
 			# User - probably not necessary
 			#result["user"] = {"userName": self.person.username(), "email": self.person.email()}
-
 			# ORCID - generation needs to be more advanced, since Pure validates it, oh well.
 			#result["orcid"] = self.person.identifier(mask = '####-####-####-####')
 		
@@ -311,19 +306,15 @@ class OrganisationGenerator:
 	def create(self, type = 'university', complex = True):
 		
 		id = self.create_id()
-
 		# associate the created id with a type, so we can filter IDs on org types if needed
 		self.ids[id] = type
-
 		# create an org with a random name
-
 		org = { 
 			"id": id, 
 			"type": type, 
 			"name": escape(self.business.company()), 
 			"start_date": self.datetime.date(start = 1975).strftime("%d-%m-%Y"),
 			"children": [] } 
-
 		return org
 
 	# takes a root org and builds a random tree-based hierarchy following the order of types
@@ -449,7 +440,7 @@ def transform(data, stylesheet, output_file, schema_file, config, batch = False)
 		xml_dom = ET.fromstring(xml_str)
 
 	transform = ET.XSLT(ET.parse(stylesheet))
-	# pass dynamic parameters to XSLT, e.g. root Org ID
+
 	trans_xml = transform(xml_dom,		
 		language = ET.XSLT.strparam(config["submission"].split("_")[0]), 
 		country = ET.XSLT.strparam(config["submission"].split("_")[1]))
@@ -466,21 +457,3 @@ def transform(data, stylesheet, output_file, schema_file, config, batch = False)
 	click.echo(click.style("Transformation saved!",fg='green'))
 
 main()
-
-# print to JSON
-#print(json.encode(peeps))
-#print(json.encode(hierarchy))
-#hierarchy.print_hierarchy()
-
-#orgs = []
-##	org = ogen.create()
-#	orgs.append(org)
-	#print(str(org).encode('utf-8'))
-
-#pgen = PersonGenerator(g)
-#for i in range(0,1):
-#	print(str(pgen.create(orgs,False)).encode('utf-8'))
-
-#p = Person('en')
-#txt = Text('en')
-
