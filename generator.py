@@ -125,9 +125,6 @@ class PersonGenerator:
 	# create a dict for each person, export JSON, convert to XML
 	# We use escape() to encode all strings for XML usage.
 	def create(self, simple = False, photos = False):
-
-		print("simple {0} and photos {1}".format(simple,photos))
-
 		iso_gender = self.person.gender(iso5218=True)
 		gen = Gender.FEMALE if iso_gender is 2 else Gender.MALE 
 
