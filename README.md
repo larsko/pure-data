@@ -9,3 +9,6 @@ This tool creates random data for Pure in valid XML. Variable size datasets cont
 1. Run generator.py while passing the desired parameters (use --help to get an overview of possible parameters).
 1. Output orgs + person XML files.
 1. Upload to Pure.
+
+## Acknowledgments
+This script uses https://github.com/lk-geimfari/mimesis for data generation.
