@@ -351,7 +351,7 @@ def date_split(date):
 
 @click.option('--validate', default=False, help='Validate XML output. Requires XSD in working directory.')
 @click.option('--locale', default="en", help='Locale for data generation. E.g. \'en\'.')
-@click.option('--submission', default="en_GB", help='Locale for submission. E.g. \'en_GB\'.')
+@click.option('--submission', default="en-GB", help='Locale for submission. E.g. \'en_GB\'.')
 @click.option('--persons', default=1, help='Number of persons to generate.')
 @click.option('--orgs', default=1, help='Number of child orgs to generate.')
 @click.option('--i_orgs', default='', help='Input existing orgs from filename.')
@@ -442,8 +442,8 @@ def transform(data, stylesheet, output_file, schema_file, config, batch = False)
 	transform = ET.XSLT(ET.parse(stylesheet))
 
 	trans_xml = transform(xml_dom,		
-		language = ET.XSLT.strparam(config["submission"].split("_")[0]), 
-		country = ET.XSLT.strparam(config["submission"].split("_")[1]))
+		language = ET.XSLT.strparam(config["submission"].split("-")[0]), 
+		country = ET.XSLT.strparam(config["submission"].split("-")[1]))
 
 	# Save transformed XML file
 	trans_xml.write(output_file, pretty_print = True, xml_declaration = True, encoding = "utf-8", standalone = True)
