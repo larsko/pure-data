@@ -124,7 +124,9 @@ class PersonGenerator:
 
 	# create a dict for each person, export JSON, convert to XML
 	# We use escape() to encode all strings for XML usage.
-	def create(self, complex = True):
+	def create(self, simple = False, photos = False):
+
+		print("simple {0} and photos {1}".format(simple,photos))
 
 		iso_gender = self.person.gender(iso5218=True)
 		gen = Gender.FEMALE if iso_gender is 2 else Gender.MALE 
@@ -166,7 +168,7 @@ class PersonGenerator:
 		# TODO: Lookup organisations in ID map from generated orgs
 		result["organisationAssociations"] = self.create_affiliations(person_id, age, True)
 
-		if complex:
+		if not simple:
 
 			result["dob"] = self.datetime.date(start = dob, end = dob).strftime("%d-%m-%Y")
 
@@ -175,13 +177,13 @@ class PersonGenerator:
 			# pick the first org as the start date
 			result["employeeStartDate"] = next(iter(result["organisationAssociations"]))["start"].strftime("%d-%m-%Y")
 
-			if self.flip_coin(): # Not everyone will have a photo
+			if self.flip_coin() and photos: # Not everyone will have a photo
 			#result["photo"] = self.person.avatar()
 				result["photos"] = {  
 					"portrait": {
 						"id": self.cryptographic.uuid(),
-						"url": self.internet.image_placeholder(width=300, height = 300),
-						#"url": self.internet.stock_image(width=300, height = 300, keywords=['person', gen.value], writable = False),
+						#"url": self.internet.image_placeholder(width=300, height = 300),
+						"url": self.internet.stock_image(width=300, height = 300, keywords=['person', gen.value], writable = False),
 						"filename": self.file.file_name(FileType.IMAGE).split(".")[0] + ".jpg"
 						}
 					}
@@ -349,19 +351,20 @@ def date_split(date):
 
 # Create the orgs and persons
 # pass the base and submission language 
-@click.command()
-@click.option('--validate', default=False, help='Validate XML output.')
-@click.option('--locale', default="en", help='Locale for data generation.')
-@click.option('--submission', default="en_GB", help='Locale for submission.')
+
+@click.option('--validate', default=False, help='Validate XML output. Requires XSD in working directory.')
+@click.option('--locale', default="en", help='Locale for data generation. E.g. \'en\'.')
+@click.option('--submission', default="en_GB", help='Locale for submission. E.g. \'en_GB\'.')
 @click.option('--persons', default=1, help='Number of persons to generate.')
 @click.option('--orgs', default=1, help='Number of child orgs to generate.')
 @click.option('--i_orgs', default='', help='Input existing orgs from filename.')
 @click.option('--orgs_out', default='orgs.xml', help='Orgs output file.')
 @click.option('--persons_out', default='persons.xml', help='Persons output file.')
-@click.option('--photos', default=False, help='Create photos for persons.')
-@click.option('--simple', default=False, help='Create bare minimum XML output.')
+@click.option('--photos/--no-photos', default=False, help='Whether to create photos for persons. Disabled with simple.')
+@click.option('--simple/--complex', default=False, help='Create simple or complex XML output.')
+@click.command()
 def main(validate, locale, submission, persons, orgs, orgs_out, persons_out, i_orgs, photos, simple):
-
+	
 	click.echo(click.style("Creating random Pure master data", bold = True) )
 	# set options
 	cfg = {
@@ -372,8 +375,8 @@ def main(validate, locale, submission, persons, orgs, orgs_out, persons_out, i_o
 		"num_orgs": orgs,
 		"o_orgs": orgs_out,
 		"o_persons": persons_out,
-		"simple": simple,
-		"photos": photos
+		"simple": bool(simple),
+		"photos": bool(photos)
 	}
 
 	# Mimesis - create provider with same language
@@ -404,7 +407,7 @@ def generate_persons(generator, config):
 	count = config["num_persons"]
 	with click.progressbar(range(0, count), label = 'Creating persons...') as bar:
 		for i in bar:
-			results.append(generator.create())
+			results.append(generator.create(config["simple"], config["photos"]))
 	transform(results, "persons.xsl", config["o_persons"], "person.xsd", config, True)
 
 # to reload org IDs from previously generated dataset
