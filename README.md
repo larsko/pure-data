@@ -11,18 +11,19 @@ This tool creates random data for Pure in valid XML. Variable size datasets cont
 1. Upload to Pure.
 
 ## Parameters
-| Parameter | Description |
-| -- | -- |
+| Parameter | Defaults | Description |
+| -- | -- | -- |
 | --help | Display help. |
-| --simple/--complex | Create simple or complex XML output. |
-| --photos / --no-photos |  Whether to create photos for persons. Note: Disabled with --simple.|
-| --persons_out | Persons output file. |
-| --orgs_out | Orgs output file. |
-| --i_orgs | Existing org structure file. |
-| --orgs | Maximum number of children to create at each level of the hierarchy (hierarchy always has tree-height = 2). |
-| --submission | Locale for submission. E.g. 'en_GB'. |
-| --locale | Locale for data generation. E.g. 'en'. |
-| --validate | Validate XML output. Requires the XSDs in working directory. |
+| --simple/--complex | --complex | Create simple or complex XML output. |
+| --photos / --no-photos | --no-photos |  Whether to create photos for persons. Note: Disabled with --simple.|
+| --persons_out | persons.xml | Persons output file. |
+| --orgs_out | orgs.xml | Orgs output file. |
+| --i_orgs | | Existing org structure file. |
+| --persons | 1 | Number of persons to create. |
+| --orgs | 1 | Maximum number of children to create at each level of the hierarchy (hierarchy always has tree-height = 2). |
+| --submission | en-GB | Locale for submission. E.g. 'en-GB'. |
+| --locale | en | Locale for data generation. E.g. 'en'. |
+| --validate | false | Validate XML output. Requires the XSDs in working directory. |
 
 ## Usage Notes
 - Org types generated are: university, faculty and department. If other types are required, use the --i_orgs to input an existing org structure.
