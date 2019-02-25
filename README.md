@@ -3,12 +3,41 @@ This tool creates random data for Pure in valid XML. Variable size datasets cont
 
 ## Getting Started
 1. Install Python 3 and pip if you have not already.
-1. See requirements.txt for required Python modules. To install these modules, use pip install -r requirements.txt.
+1. See `requirements.txt` for required Python modules. To install these modules, use `pip install -r requirements.txt`.
 1. Download code above and put into a directory.
-1. Download commons.xsd, person.xsd and organisation.xsd and place into the working directory. (Get these from the Pure Administrator)
-1. Run generator.py while passing the desired parameters (use --help to get an overview of possible parameters).
+1. Download `commons.xsd`, `person.xsd` and `organisation.xsd` and place into the working directory. (Get these from the Pure Administrator)
+1. Run `generator.py` while passing the desired parameters (use --help to get an overview of possible parameters).
 1. Output orgs + person XML files.
 1. Upload to Pure.
+
+## Parameters
+| Parameter | Description |
+| -- | -- |
+| --help | Display help. |
+| --simple/--complex | Create simple or complex XML output. |
+| --photos / --no-photos |  Whether to create photos for persons. Note: Disabled with --simple.|
+| --persons_out | Persons output file. |
+| --orgs_out | Orgs output file. |
+| --i_orgs | Existing org structure file. |
+| --orgs | Maximum number of children to create at each level of the hierarchy (hierarchy always has tree-height = 2). |
+| --submission | Locale for submission. E.g. 'en_GB'. |
+| --locale | Locale for data generation. E.g. 'en'. |
+| --validate | Validate XML output. Requires the XSDs in working directory. |
+
+## Usage Notes
+- Org types generated are: university, faculty and department. If other types are required, use the --i_orgs to input an existing org structure.
+- If modifying the XSL files it is recommended to use --validate to ensure XML output conforms to the schema definition.
+
+## Examples
+Create Chinese orgs and 50 persons (some with photos) in the corresponding submission locale: 
+```
+python3 generator.py --persons 50 --locale zh --submission zh-CH --photos
+```
+
+Create a set of persons with Mexican locale based on an existing org hierarchy (filename existing_orgs.xml) and with US submission language:
+```
+python3 generator.py --locale es-mx --submission en-US --i_orgs existing_orgs.xml
+```
 
 ## Acknowledgments
 This script uses https://github.com/lk-geimfari/mimesis for data generation.
