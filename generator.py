@@ -436,9 +436,10 @@ def transform(data, stylesheet, output_file, schema_file, config, batch = False)
 
 	transform = ET.XSLT(ET.parse(stylesheet))
 
+	# Pure expects submission locale to be lower-UPPER.
 	trans_xml = transform(xml_dom,		
-		language = ET.XSLT.strparam(config["submission"].split("-")[0]), 
-		country = ET.XSLT.strparam(config["submission"].split("-")[1]))
+		language = ET.XSLT.strparam(config["submission"].split("-")[0].lower()), 
+		country = ET.XSLT.strparam(config["submission"].split("-")[1].upper()))
 
 	# Save transformed XML file
 	trans_xml.write(output_file, pretty_print = True, xml_declaration = True, encoding = "utf-8", standalone = True)
