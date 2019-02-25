@@ -324,18 +324,13 @@ class OrganisationGenerator:
 
 		# set seed to 1, so we get at least 1 child per layer - otherwise we can get very small structures
 		new_max = randint(min_children, max_children)
-
 		# add number of desired children to each  level
 		for x in range(0, new_max):
-
 			child = self.create(self.types[depth])
-
 			root["children"].append(child)
-
 			# if we have more levels to go, make recursive call, same minimum
 			if(depth + 1 < len(self.types)):
 				self.create_hierarchy(child, depth + 1, min_children, new_max)	
-
 		return root	
 
 # break date into 3 components
@@ -366,7 +361,7 @@ def main(validate, locale, submission, persons, orgs, orgs_out, persons_out, i_o
 	# set options
 	cfg = {
 		"validate": validate,
-		"locale": locale,
+		"locale": locale.lower(),
 		"submission": submission,
 		"num_persons": persons,
 		"num_orgs": orgs,
