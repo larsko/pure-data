@@ -24,6 +24,8 @@ import numpy as np
 
 import click
 
+norm = pd.io.json.json_normalize
+
 # Generates persons
 class PersonGenerator:
 	def __init__(self, organisations, provider):
@@ -305,7 +307,7 @@ class OrganisationGenerator:
 	def create_id(self):
 		return self.crypto.hash(Algorithm.MD5)
 
-	def create(self, type = 'university', complex = True):
+	def create(self, type = 'university', parent_id = None, complex = True):
 		
 		id = self.create_id()
 		# associate the created id with a type, so we can filter IDs on org types if needed
@@ -313,6 +315,7 @@ class OrganisationGenerator:
 		# create an org with a random name
 		org = { 
 			"id": id, 
+			"parent_id": parent_id,
 			"type": type, 
 			"name": escape(self.business.company()), 
 			"start_date": self.datetime.date(start = 1975).strftime("%d-%m-%Y"),
@@ -329,7 +332,7 @@ class OrganisationGenerator:
 		new_max = randint(min_children, max_children)
 		# add number of desired children to each  level
 		for x in range(0, new_max):
-			child = self.create(self.types[depth])
+			child = self.create(self.types[depth], root['id'])
 			root["children"].append(child)
 			# if we have more levels to go, make recursive call, same minimum
 			if(depth + 1 < len(self.types)):
@@ -363,7 +366,9 @@ def main(validate, locale, submission, persons, orgs, orgs_out, persons_out, i_o
 	
 	click.echo(click.style("Creating random Pure master data", bold = True) )
 
-	func = transform_to_excel if bool(excel) else transform_to_xml
+	# set transformation to excel or xml
+	t_persons = transform_to_excel if bool(excel) else transform_to_xml
+	t_orgs = transform_orgs_to_excel if bool(excel) else transform_to_xml
 
 	# set options
 	cfg = {
@@ -376,7 +381,8 @@ def main(validate, locale, submission, persons, orgs, orgs_out, persons_out, i_o
 		"o_persons": persons_out,
 		"simple": bool(simple),
 		"photos": bool(photos),
-		"transform": func
+		"transform_persons": t_persons,
+		"transform_orgs": t_orgs
 	}
 
 	# Mimesis - create provider with same language
@@ -399,7 +405,7 @@ def main(validate, locale, submission, persons, orgs, orgs_out, persons_out, i_o
 
 def generate_orgs(generator, config):
 	result = generator.create_hierarchy(max_children = config["num_orgs"])
-	config['transform'](
+	config['transform_orgs'](
 		data=result, 
 		data_type='organisations', 
 		stylesheet="orgs.xsl", 
@@ -415,7 +421,7 @@ def generate_persons(generator, config):
 	with click.progressbar(range(0, count), label = 'Creating persons...') as bar:
 		for i in bar:
 			results.append(generator.create(config["simple"], config["photos"]))
-	config['transform'](
+	config['transform_persons'](
 		data=results, 
 		data_type='persons', 
 		stylesheet="persons.xsl", 
@@ -440,10 +446,23 @@ def to_xml(dict, pretty = False):
 
 	return dicttoxml.dicttoxml(dict, custom_root = 'item', attr_type = False)
 
-# simple func to handle CSV to get raw data - yes arguments could be left out and changed to args... 
-def transform_to_excel(data, output_file, config, data_type = '', stylesheet = '', schema_file = '', batch = False):
+def transform_orgs_to_excel(data, output_file, config, data_type = '', stylesheet = '', schema_file = '', batch = False):
 
-	norm = pd.io.json.json_normalize
+	df = pd.DataFrame()
+
+	stack = [data]
+
+	while(stack):
+		item = stack.pop()
+		df = pd.concat([df, norm(item).drop(['children'],axis=1)])
+		stack.extend(item['children'])
+
+	df.to_excel('orgs.xlsx', index = False)
+
+
+# simple func to handle CSV to get raw data - yes arguments could be left out and changed to args... 
+# this only works for persons
+def transform_to_excel(data, output_file, config, data_type = '', stylesheet = '', schema_file = '', batch = False):
 
 	writer = pd.ExcelWriter('{0}.xlsx'.format(data_type))
 
