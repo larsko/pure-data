@@ -24,6 +24,7 @@ This tool creates random data for Pure in valid XML. Variable size datasets cont
 | --submission | en-GB | Locale for submission. E.g. 'en-GB'. |
 | --locale | en | Locale for data generation. E.g. 'en'. |
 | --validate | false | Validate XML output. Requires the XSDs in working directory. |
+| --excel/--no-excel | --no-excel | Output to Excel file. |
 
 ## Usage Notes
 - Org types generated are: university, faculty and department. If other types are required, use the --i_orgs to input an existing org structure.
