@@ -31,6 +31,8 @@ This tool creates random data for Pure in valid XML. Variable size datasets cont
 - If modifying the XSL files it is recommended to use --validate to ensure XML output conforms to the schema definition.
 - Qualifications.json contains a pre-populated set of academic qualifications used by the script. This can be customized by fetching the classification scheme from the Pure API.
 - Usage of classifications has been kept to a minimum, so it should not be necessary to customize a lot of classification schemes before uploading the XML files.
+- Note: The Excel format does not correspond to the Pure masterlist spec, however support for this may be added in the future.
+- Warning: Enabling photos will slow down the script, as Mimesis always downloads the file (even though we don't actually need it).
 
 ## Examples
 Create Chinese orgs and 50 persons (some with photos) in the corresponding submission locale: 
