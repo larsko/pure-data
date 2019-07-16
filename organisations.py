@@ -1,9 +1,8 @@
-from mimesis import Generic
+
 from mimesis.enums import *
 from html import escape
 from random import randint
 import random
-import os
 import jsonpickle as json
 import datetime as dt
 
