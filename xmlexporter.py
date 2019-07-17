@@ -13,6 +13,11 @@ class XMLExporter:
 
 		return dicttoxml.dicttoxml(dict, custom_root = 'item', attr_type = False)
 
+	@classmethod
+	def dump_xml(self,dict,filename):
+		xml_str=XMLExporter.to_xml(dict,pretty=True)
+		ET.ElementTree(ET.fromstring(xml_str)).write(filename)
+
 	#@classmethod
 	def transform_to_xml(data, data_type, output_file, config, stylesheet, schema_file, batch = False):
 

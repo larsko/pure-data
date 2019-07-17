@@ -28,8 +28,8 @@ from xmlexporter import XMLExporter
 @click.option('--persons', default=1, help='Number of persons to generate.')
 @click.option('--orgs', default=1, help='Number of child orgs to generate.')
 @click.option('--i_orgs', default='', help='Input existing orgs from filename.')
-@click.option('--orgs_out', default='orgs.xml', help='Orgs output file.')
-@click.option('--persons_out', default='persons.xml', help='Persons output file.')
+@click.option('--orgs_out', default='Organisations.xml', help='Orgs output file.')
+@click.option('--persons_out', default='Persons.xml', help='Persons output file.')
 @click.option('--photos/--no-photos', default=False, help='Whether to create photos for persons. Disabled with simple.')
 @click.option('--simple/--complex', default=False, help='Create simple or complex XML output.')
 @click.option('--excel/--no-excel', default=False, help='Output to Excel file.')
@@ -80,7 +80,7 @@ def generate_orgs(generator, config):
 	config['transform_orgs'](
 		data=result, 
 		data_type='organisations', 
-		stylesheet="orgs.xsl", 
+		stylesheet="Organisations.xsl", 
 		output_file=config["o_orgs"], 
 		schema_file="organisation.xsd", 
 		config=config)
@@ -96,7 +96,7 @@ def generate_persons(generator, config):
 	config['transform_persons'](
 		data=results, 
 		data_type='persons', 
-		stylesheet="persons.xsl", 
+		stylesheet="Persons.xsl", 
 		output_file=config["o_persons"], 
 		schema_file="person.xsd", 
 		config=config, 
