@@ -56,7 +56,7 @@ class PersonGenerator:
 			is_primary = self.flip_coin()
 			
 			# set start and end. former enabled and coin flip, then use the end date
-			offset = dt.datetime.today().year - self.numbers.between(1, age)
+			offset = dt.datetime.today().year - self.numbers.integer_number(1, age)
 
 			start_date = self.datetime.date(start = offset) 
 			end_date = self.datetime.date(start = start_date.year) 
