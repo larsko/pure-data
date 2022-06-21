@@ -2,7 +2,7 @@ mimesis==3.0.0
 pandas==0.22.0
 click==6.7
 dicttoxml==1.7.4
-numpy==1.14.1
+numpy==1.22.0
 lxml==4.2.1
 jsonpickle==1.0
 python_dateutil==2.8.0
